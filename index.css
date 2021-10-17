@@ -1,0 +1,606 @@
+.logo{
+    background: url("./Assets/images/logo_jspiders.e810f7f.png") no-repeat;
+    width: 176px;
+    height: 78px;
+}
+
+.navbar{
+    font-family: sans-serif;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.navbar li{
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover{
+    color: rgb(255, 136, 1);
+}
+
+i{
+    margin-right: 5px;
+}
+
+.state-dropdowns{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    /* border: 2px solid red; */
+    padding-top: 8px;
+    padding-left: 17px;
+    /* padding-bottom: 8px; */
+    padding-right: 17px;
+    color: white;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    margin-right: 1px;
+    text-align: center;
+}
+
+.state-dropdowns #item1{
+    background-color: tomato;
+}
+
+.state-dropdowns #item2{
+    background-color:rgb(76, 121, 76) 
+}
+
+.state-dropdowns #item3{
+    background-color: rgb(240, 17, 17);
+}
+
+.state-dropdowns #item4{
+  background-color: grey;  
+}
+
+.state-dropdowns #item5{
+    background-color: yellowgreen;
+}
+
+.state-dropdowns #item6{
+    background-color: rgb(155, 6, 155);
+}
+
+.state-dropdowns #item7{
+  background-color: rgb(0, 153, 255);  
+}
+
+.state-dropdowns #item8{
+    background-color: rgb(170, 168, 168);
+}
+
+.state-dropdowns #item9{
+    background-color: green;
+}
+
+.state-dropdowns #item10{
+    background-color: cadetblue;
+}
+
+.state-dropdowns #item11{
+    background-color: brown;
+}
+
+/*! This is Course Section */
+
+.header{
+    width: 90%;
+    margin: auto;
+}
+
+.courses{
+    text-align: center;
+    line-height: 10px;
+}
+
+.courses h1{
+    color: rgb(255, 174, 0);
+}
+
+.courses p{
+    color: grey;
+    font-size: 30px;
+}
+
+.form-courses label{
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.form-control{
+    width: 98%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid rgb(182, 181, 181);
+}
+
+.form-control:focus{
+    border: 1px solid rgb(255, 174, 0);
+}
+
+/*! Cards design */
+
+.main-card{
+    margin-top: 30px;
+    width: 90%;
+    margin:auto;
+}
+
+.sub-card{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sub-card-3{
+    display: flex;
+}
+
+.card{
+    text-align: center;
+    width: 280px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(218, 216, 216);
+}
+
+
+.main-card .card .card-header{
+    background-color: rgb(238, 232, 232);
+    font-weight:lighter;
+    font-size: large;
+    color: rgb(255, 174, 0);
+    padding-top: 8px;
+    padding-left: 17px;
+    padding-bottom: 8px;
+    padding-right: 17px;
+}
+
+.main-card .card .card-body{
+    text-align: justify;
+    padding: 10px;
+    font-size: large;
+    line-height: 23px;
+}
+
+.main-card .card .card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey-btn{
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.orange-btn{
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    background-color: rgb(253, 196, 8);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.card-3{
+    margin-top: 20px;
+    margin-right: 27px;
+    text-align: center;
+    width: 280px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(218, 216, 216);
+}
+
+.card-3 .card-header{
+    background-color: rgb(238, 232, 232);
+    font-weight:lighter;
+    font-size: large;
+    color: rgb(255, 174, 0);
+    padding-top: 8px;
+    padding-left: 17px;
+    padding-bottom: 8px;
+    padding-right: 17px;
+
+}
+
+.card-3 .card-body{
+    text-align: justify;
+    padding: 10px;
+    font-size: large;
+    line-height: 23px;
+}
+
+.card-3  .card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sub-card-3 #item10{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    text-align: center;
+    font-size: large;
+    line-height: 9px;
+    padding: 40px;
+    box-shadow: 5px 5px 10px rgb(212, 211, 211);
+    /* border: 1px solid red; */
+    width: 84%;
+    margin: auto;
+    border-radius: 5px;
+}
+
+/* ABOUT */
+
+.about-header{
+    text-align: center;
+}
+.about-header h1{
+    color: rgb(255, 174, 0);
+    font-family: sans-serif;
+}
+.about-header h3{
+    color: grey;
+    font-family: sans-serif;
+
+}
+
+.about-par{
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+    margin: 0px 150px 40px 150px;
+
+}
+
+.about-main-card1 h3{
+    text-align: center;
+    color: rgb(255, 174, 0);
+
+}
+
+.about-sub-card1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-card1{
+    text-align: center;
+    width: 280px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgb(218, 214, 214); */
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(218, 216, 216);
+    margin-bottom: 50px;
+}
+.about-card1 button{
+    background-color:rgb(255, 174, 0);
+    color: white;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.about-sub-card2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-card2{
+    text-align: center;
+    width: 280px;
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(218, 216, 216);
+    padding-bottom: 30px;
+}
+.about-card2 button{
+    background-color:rgb(255, 174, 0);
+    color: white;
+    border-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+/* BATCHES */
+
+.bat-header{
+    text-align: center;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+.bat-header h1{
+    color:rgb(255, 136, 1);
+}
+.bat-header h3{
+    color: rgb(105, 117, 150);
+}
+
+.bat-details{
+    padding-left: 220px;
+    padding-right: 220px;
+}
+.bat-details-title{
+    display: flex;
+}
+.bat-details-title h4{
+    width: 210px;
+    padding-right: 5px;
+}
+.bat-search{
+    display: flex;
+}
+.bat-search-btn{
+    padding-right: 10px;
+    width: 195px;
+    height: 40px;   
+}
+.bat-input-btn{
+    border-color: rgb(197, 193, 193);
+    border-radius: 5px;
+}
+.btn-reset{
+    width: 82px;
+    height: 46px;
+    border-radius: 20px;
+    margin-left: 30px;
+    background-color: rgb(255, 136, 1);
+    border: none;
+    color: white;
+}
+.bat-search-btn input{
+    width: 195px;
+    height: 40px;
+    text-align: center;
+}
+
+.bat-card{
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.bat-header-card{
+    margin-bottom: 10px;
+    color:rgb(255, 136, 1);
+}
+
+.bat-card1{
+    display: flex;
+    justify-content: space-between;
+}
+.bat-card2{
+    display: flex;
+    justify-content: space-between;
+}
+.bat-card-box{    
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(218, 216, 216);
+    margin-bottom: 30px;
+}
+.bat-card-box h3{
+    color:rgb(255, 136, 1);
+    background-color: rgb(209, 207, 207);
+    margin-top: 0px;
+    padding: 10px  0px 10px 10px;
+}
+.bat-card-box p{
+    border-bottom: 1px solid rgb(255, 174, 0);
+
+}
+.bat-card-btn button{
+    width: 104px;
+    height: 30px;
+}
+
+.bat-card-btn1{
+    background-color: lightslategrey;
+    border: none;
+    color: white;
+}
+.bat-card-btn2{
+    background-color: rgb(255, 136, 1);
+    border: none;
+    color: white;
+}
+
+.batch-footer{
+    margin-left: 220px;
+    margin-right: 220px;
+    text-align: center;
+    box-shadow: 0px 1px 7px rgb(218 216 216);
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.batch-fo-p1{
+    color: rgb(224, 70, 122);
+    padding-bottom: 10px;
+}
+.batch-fo-p2{
+    color:#5A7670;
+}
+.batch-footer-cont{
+    background-color: rgb(255, 136, 1);
+    padding: 10px;
+    color: white;
+}
+.batch-footer-cont i{
+    background-color: white;
+    color: rgb(255, 136, 1);
+    padding: 5px;
+}
+.home-sub-card{
+    display: flex;
+    margin-top: 2px;
+}
+.home-card-1{
+    width: 511px;
+    height: 300px;
+    background: url(./Assets/images/machine-background.jpeg) no-repeat center/cover;
+    padding: 0px 40px 0px 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+.home-card-1 h3{
+    color: rgb(255, 136, 1);
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 4px;
+}
+.home-card-1 h4{
+    color: white;
+}
+.home-card-2{
+    width: 511px;
+    height: 290px;
+    padding: 10px 40px 0px 40px;
+    box-shadow: 0px 1px 7px rgb(218 216 216);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+.home-card-2 h3{
+    color: rgb(255, 136, 1);
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 4px;
+
+}
+.home-card-2-h4 h4{
+    background: #e4e2e2;
+    border-left: 4px solid #5a7670;
+    border-right: 4px solid #5a7670;
+    border-radius: 4px;
+    padding: 10px 5px 10px 5px;
+
+}
+.home-card-3{
+    width: 511px;
+    height: 290px;    
+    padding: 10px 40px 0px 40px;
+    box-shadow: 0px 1px 7px rgb(218 216 216);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.home-card-3 h3{
+    color: rgb(255, 136, 1);
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 4px;
+
+}
+.home-year-de-ma{
+    background-color: rgb(54, 53, 53);
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.home-card-3-year{
+    text-align: center;
+}
+.home-card-3-year button{
+    background-color: #5a7670;
+    color: white;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.home-card-3-degree{
+    text-align: center;    
+}
+.home-card-3-degree button{
+    background-color: rgb(255, 136, 1);
+    color: white;
+    border-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.home-card-3-master{
+    text-align: center;
+}
+.home-card-3-master button{
+    background-color: rgb(255, 136, 1);
+    color: white;
+    border-style: none;
+    padding-top: 5px;
+}
+
+.home-rating{
+    display: flex;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.home-rating-card{
+    box-shadow: 0px 0px 2px rgb(218 216 216);
+    text-align: center;
+}
+.home-rating-card h3{
+    background-color: rgb(71, 69, 69);
+    color: rgb(255, 136, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: -10px;
+    margin-right: 5px;
+}
+.home-courses{
+    text-align: center;
+    box-shadow: 0px 0px 2px rgb(218 216 216);
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.home-courses h3{
+    background-color: #5a7670;
+}
